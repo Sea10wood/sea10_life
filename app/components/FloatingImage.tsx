@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function FloatingImage() {
   return (
-    <div className="absolute bottom-4 w-full flex flex-col items-center">
+    <div className="absolute bottom-4 w-full flex flex-col items-center z-2">
       <div className={`relative ${styles.float}`}>
         <Image
           src="/sea10.webp"
