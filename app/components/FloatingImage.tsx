@@ -1,9 +1,10 @@
 import styles from '@/app/styles/FloatingImage.module.css';
 import Image from 'next/image';
+import zIndex from '../styles/zIndex';
 
 export default function FloatingImage() {
   return (
-    <div className="absolute bottom-4 w-full flex flex-col items-center z-2">
+    <div className="absolute bottom-4 w-full flex flex-col items-center " style={{ zIndex: zIndex.floatingImage }}>
       <div className={`relative ${styles.float}`}>
         <Image
           src="/sea10.webp"
