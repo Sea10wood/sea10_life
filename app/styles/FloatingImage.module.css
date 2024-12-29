@@ -1,13 +1,28 @@
 .float {
-    animation: float 24s infinite ease-in-out;
+    animation: float 4s infinite ease-in-out;
+  }
+  
+  .floatBubble {
+    animation: floatBubble 4s infinite ease-in-out;
   }
   
   @keyframes float {
-    0%, 100% {
+    0%,
+    100% {
       transform: translateY(0);
     }
     50% {
       transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes floatBubble {
+    0%,
+    100% {
+      transform: translate(-50%, 0);
+    }
+    50% {
+      transform: translate(-50%, -10px);
     }
   }
   
