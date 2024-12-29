@@ -13,7 +13,7 @@ export default {
         foreground: "var(--foreground)",
       },
       animation: {
-        marquee: "marquee 10s linear infinite", // テキストの横スクロールアニメーション
+        marquee: "marquee 32s linear infinite", // テキストの横スクロールアニメーション
       },
       keyframes: {
         marquee: {
