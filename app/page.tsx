@@ -3,7 +3,6 @@
 import { useRef } from "react";
 import FloatingHearts, { FloatingHeartsRef } from "./components/FloatingHearts";
 import FloatingImage from "./components/FloatingImage";
-import HeartButton from "./components/HeartButton";
 import LikeButton from "./components/LikeButton";
 import MarqueeText from "./components/MarqueeText";
 import WaveBackground from "./components/WaveBackground";

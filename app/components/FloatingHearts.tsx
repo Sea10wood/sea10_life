@@ -32,4 +32,5 @@ const FloatingHearts = forwardRef<FloatingHeartsRef>((_, ref) => {
   );
 });
 
+FloatingHearts.displayName = 'FloatingHearts';
 export default FloatingHearts;
