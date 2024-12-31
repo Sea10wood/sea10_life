@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import styles from "@/app/styles/FloatingImage.module.css";
 import Image from "next/image";
 import zIndex from "../styles/zIndex";
@@ -10,11 +10,6 @@ export default function FloatingImage() {
   const [showForm, setShowForm] = useState(false);
   const [name, setName] = useState("");
   const [initialMessage, setInitialMessage] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setInitialMessage(false), 300000);
-    return () => clearTimeout(timer);
-  }, []);
 
   const handleFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();

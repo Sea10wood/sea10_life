@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .heartButton {
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.2s;
+  }
+  
+  .heartButton:hover {
+    transform: scale(1.2);
+  }
+  
+  .liked {
+    color: red;
+    transform: scale(1.1);
+  }
+  
