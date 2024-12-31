@@ -1,0 +1,45 @@
+.button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    transform: scale(1.1);
+  }
+  
+  .heart {
+    width: 24px;
+    height: 24px;
+    background: none;
+    border: 2px solid red;
+    clip-path: polygon(
+      50% 0%,
+      61% 19%,
+      74% 31%,
+      89% 41%,
+      100% 56%,
+      88% 81%,
+      68% 100%,
+      50% 87%,
+      32% 100%,
+      12% 81%,
+      0% 56%,
+      11% 41%,
+      26% 31%,
+      39% 19%
+    );
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .heart.active {
+    background-color: red;
+  }
+  
